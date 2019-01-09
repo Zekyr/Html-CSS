@@ -1,0 +1,281 @@
+@font-face{
+    font-family : "Bodega Sans";
+    src : url('../fonts/BodegaSans_Black.ttf');
+}
+*{
+	box-sizing:border-box;
+	color:white;
+	font-weight:normal;
+}
+img
+{
+	max-width:100%;
+}
+body{
+	font-family:"Bodega Sans";
+	background-color:#525252;
+	background-image:url(../img/bg_body.svg);
+
+}
+.container
+{
+	padding:15px;
+}
+header.site-header{
+	padding:2em;
+	margin:30px;
+	background: -moz-linear-gradient(150deg, white 0%, white 50%, #333 50%, #333 100%);
+    background: -webkit-linear-gradient(150deg, white 0%, white 50%, #333 50%, #333 100%);
+    background: linear-gradient(150deg, white 0%, white 50%, #333 50%, #333 100%);
+}
+header.site-header img{
+	background-color:transparent;
+}
+header.site-header nav{
+	display:block;
+	margin-top:4em;
+	text-align:right;
+}
+header.site-header nav a{
+	text-decoration:none;
+	display:block;
+	font-size:1.8em;
+	margin:30px 0;
+}
+header.site-header nav a:last-child
+{
+	margin-bottom:0;
+}
+h1{
+	text-transform:uppercase;
+	text-align:center;
+	line-height:1.8;
+	margin:0 auto;
+	font-size: 2.5rem;
+	padding-top:20px;
+	padding-bottom:30px;
+}
+h2{
+	border-top:2px solid #3d3d3d;
+	border-left:2px solid #3d3d3d;
+
+	font-size:2.3em;
+
+	text-align:left;
+	padding:30px;
+	text-transform:uppercase;
+	line-height:1.8;
+}
+section article{
+	margin:0 auto;
+	background-color:white;
+}
+section article h3{
+	color:#ee9406;
+	font-size:1.8em;
+	padding:5%;
+	margin:0 auto;
+	background-color:white;
+	text-align:center;
+	text-transform:uppercase;
+	border-bottom:1px solid #ee9406;
+}
+
+section article p{
+	color:#666666;
+	width:80%;
+	background-color:white;
+	text-align:center;
+	margin:0 auto;
+	line-height:1.8;
+	font-size:1.3em;
+	font-family:"Open Sans";
+	padding-bottom:2.5%;
+}
+span{
+	color:#ee9406;
+}
+aside p{
+	font-family:"Open Sans";
+	text-align:center;
+	font-size:0.9em;
+	line-height:2;
+	width:70%;
+	margin:0 auto;
+	padding-bottom:10px;
+
+}
+aside{
+	margin:0 auto;
+}
+video{
+	width:70%;
+	display:block;
+	margin:0 auto;
+	padding-bottom:60px;
+	padding-top:10px;
+}
+h4{
+	font-size:1.8em;
+	text-transform:uppercase;
+	color:#d0d0d0;
+	margin:30px auto 10px;
+}
+footer{
+	width:90%;
+	padding:20px 20px 80px;
+	text-align:center;
+	line-height:1.8;
+	margin:20px auto;
+	box-shadow:  1px 3px 55px 0.1px rgba(0, 0, 0, 0.12);
+}
+footer header p{
+	width:70%;
+	margin:0 auto;
+	color:#d0d0d0;
+	font-weight:normal;
+	font-size:1.1em;
+	font-family:"Open Sans";
+	padding-bottom:20px;
+}
+footer nav{
+	width:70%;
+	margin:0 auto;
+}
+footer nav a{
+	display:inline-block;
+	font-weight:normal;
+	font-family:"Open Sans";
+	padding:15px 15px;
+	font-size:1.1em;
+}
+footer p{
+	width:60%;
+	margin:0 auto;
+	color:#d0d0d0;
+	font-family:"Open Sans";
+}
+footer > p a{
+	font-weight:normal;
+	font-family:"Open Sans";
+	
+
+}
+footer img{
+	padding-top:30px;
+}
+i.fab{
+	margin:0 auto;
+	display:block;
+	font-size:3em;
+	padding:25px 0;
+	text-align:center;
+}
+ul{
+	list-style-type:none;
+}
+.flexslider{
+	border:none;
+	background-color:#525252;
+}
+.flexslider .slides img{
+	margin:0 auto;
+	border:10px solid white;
+}
+.plus{
+	text-decoration:none;
+	color:white;
+	display:block;
+	background-color: #ee9406;
+	padding:20px 50px;
+	text-align:center;
+	font-family:"Open Sans";
+	font-size:1.3em;
+}
+.clear{
+	clear:both;
+}
+/*Tablette*/
+@media screen and (min-width:768px){
+.container
+{
+	padding:30px;
+}
+header.site-header{
+
+	background: -moz-linear-gradient(130deg, white 0%, white 50%, #333 50%, #333 100%);
+    background: -webkit-linear-gradient(130deg, white 0%, white 50%, #333 50%, #333 100%);
+    background: linear-gradient(130deg, white 0%, white 50%, #333 50%, #333 100%);
+}
+header.site-header img{
+	background-color:transparent;
+	padding-right:20px;
+
+}
+header.site-header nav{
+	padding:0;
+	display:block;
+	float:right;
+	margin-top:0;
+}
+header.site-header nav a{
+	display:block;
+	text-align:right;
+	padding:0;
+	margin:15px 0;
+
+}
+section article img{
+	width:100%;
+}
+section article {
+	padding:20px;
+
+}
+
+h2{
+	width:85%;
+}
+video{
+	width:85%;
+}
+footer header p{
+	width:85%;
+}
+footer p{
+	width:85%;
+}
+}
+/*Ordi*/
+@media screen and (min-width: 1024px) {
+.container
+{
+	max-width:1500px;
+	margin:0 auto;
+}
+header.site-header 
+{
+	margin:0;
+}
+}
+.col-one-quarter{
+	width:calc( 100%/4 - 2em );
+	float:left;
+	margin:1em;
+}
+footer
+{
+	width:100%;
+}
+.col-one-half
+{
+	width:calc( 100%/2 - 2em );
+	float:left;
+	margin:1em;
+}
+i.fab{
+	display:inline-block;
+	padding:5px 30px;
+	text-align: center;
+}
+}

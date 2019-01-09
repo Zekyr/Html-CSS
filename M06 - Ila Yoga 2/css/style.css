@@ -1,0 +1,190 @@
+*{
+	box-sizing:border-box;
+
+}
+main{
+	text-align:center;
+	font-weight:normal;
+}
+body{
+	font-size:1em;
+	line-height:180%;
+	font-family:"Playfair Display";
+}
+header{
+	background-image:url(../img/fond.jpg);
+	background-size:cover;
+	margin:0 auto;
+	width:auto;
+	overflow:auto;
+	text-align:center;
+	color:white;
+	background-position:center center;
+}
+nav a{
+	padding:10px 30px;
+	text-decoration:none;
+	color:white;
+	display:inline-block;
+}
+a .fas, a .far{
+	display:block;
+}
+header p{
+	background-color:rgba(255, 255, 255, 0.1);
+	margin:0;
+	padding:10px;
+}
+header h1{
+	font-size:2em;
+	padding: 160px 0 220px;
+}
+header nav{
+	background-color:rgba(255,255,255, 0.2);
+	font-size:1.5em;
+	padding:10px;
+}
+h1,nav{
+	font-family:"Kaushan Script";
+	font-weight:normal;
+}
+section{
+	color:#4c596c;
+}
+section article{
+	margin:20px;
+}
+section article p img{
+	margin:0 10px;
+}
+.article1::after{
+	content:"";
+	display:block;
+	background-color:#dccedd;
+	height:1px;
+	width:90%;
+	margin:0 auto;
+}
+aside{
+	background-image:url(../img/background_section.jpg);
+	background-size:cover;
+	margin:0 auto;
+	width:auto;
+	overflow:auto;
+	text-align:center;
+	color:white;
+	background-position:center;
+	display:inline-block;
+	margin:0;
+}
+aside > article{
+	width:calc(100% / 3);
+	margin:0;
+	padding:15px 60px;
+}
+.map 
+{
+	margin:0;
+	padding:0;
+	line-height: 0 !important; 
+	border:0;	
+}
+h2{
+	font-weight:normal;
+	color:#384963;
+}
+table{
+	width:90%;
+	margin:0 auto;
+	border-collapse:collapse
+}
+table *{
+	border:solid 1px #cccccc;
+}
+thead{
+	background-color:#c4a5de;
+	color:white;
+	font-size:1.6em;
+	font-family:"Kaushan Script";
+	text-align:left;
+}
+thead th{
+	padding:15px;
+	font-weight:normal;
+}
+legend{
+	font-size:1em;
+	margin-top:20px;
+}
+tbody{
+	padding-top:20px;
+}
+tbody tr td{
+	padding:10px;
+	text-align:center;
+}
+h3{
+	font-weight:normal;
+	padding:10px;
+	color:#384963;
+}
+fieldset{
+	margin:0 auto 20px;
+	padding:20px;
+	width:90%;
+	border:solid 1px #dddddd;
+	color:#384963;
+}
+label{
+	padding-left:50px;
+}
+select{
+	width:95%;
+	font-family:Arial;
+}
+main > input{
+	background-color:#8b5bc1;
+	color: white;
+	padding:10px 20px;
+	border:0;
+	margin-bottom:20px;
+	font-family:Arial;
+}
+.gris{
+	background-color:#f2f2f2;
+}
+.violet{
+	color:#a366e5;
+}
+.left{
+	text-align:left;
+}
+.bline{
+	border:none;
+	border-bottom:solid 1px #dddddd;
+}
+iframe
+{
+	width:100%;
+	margin:0;
+	padding:0;
+	line-height:0;
+	border:0;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+footer{
+	background-color:#8d6fd1;
+	text-align:center;
+	color:white;
+}
+footer a{
+	color:white;
+}

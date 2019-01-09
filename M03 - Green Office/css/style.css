@@ -1,0 +1,65 @@
+header{
+	max-width:750px;
+	background-color:#b8cb21;
+	margin:0 auto;
+}
+html{
+	background-image:url(../img/fond.png);
+}
+body{
+	font-family:Arial;
+}
+h2{
+	color:#b8cb21;
+	padding:5px;
+	font-weight:normal;
+	font-family:Oswald !important;
+	margin:25px 0 5px;
+}
+
+header a{
+	padding:20px;
+	color:#304439;
+}
+footer{
+	text-align: center;
+	background-image:url(../img/fond.png);
+	padding-top:25px;
+	max-width:none;
+}
+footer p{
+	margin:0;
+}
+header nav{
+	float:right;
+	padding-top:75px;
+	padding-right:10px;
+	font-family:Oswald !important;
+	font-size:1.3em;
+}
+header h1{
+	float:left;
+	font-family:Oswald !important;
+}
+main{
+	max-width:750px;
+	margin:0 auto;
+	background-color:white;
+}
+main img{
+	float:left;
+	padding:2px;
+}
+main article{
+	padding:20px;
+}
+main a{
+	float:right;
+	padding: 10px;
+	background-color:#b8cb21;
+	text-decoration:none;
+	color:white;
+}
+.clear{
+	clear:both;
+}

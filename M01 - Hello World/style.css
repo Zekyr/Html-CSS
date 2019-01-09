@@ -1,0 +1,30 @@
+.rouge1{
+	color:red;
+}
+.bleu1{
+	color:blue;
+}
+.vert1{
+	color:green;
+}
+
+.rouge{
+	background-color:red;
+}
+.bleu{
+	background-color:blue;
+}
+.vert{
+	background-color:green;
+}
+.Arial{
+	font-family:Arial;
+	color:grey;
+}
+.monospace{
+	font-family:monospace;
+	color:grey;
+}
+footer{
+	text-align:center;
+}
